@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+margin:0;padding:0;
+  }
+ /*开始写头部=======================================*/
+header
+{
+		height:200px;
+		text-align:center;
+		background:#338593;
+		padding:50px 0 0;
+		
+		}
+		
+header h1
+{
+		font-weight:500;
+		line-height:1.1;
+		font-size:48px;
+		}
+		
+header h1 span
+{
+		font-size:20px;
+		}
+		
+header hr
+{
+		display:inline-block;
+		width:10%;
+		margin:20px 20px 0;
+		border:1px solid #000;
+		
+		   }
+		   
+header .author
+{
+		
+		color:#333;
+		font-size:20px;;
+		
+		}
+
+header .author,.photo
+{
+		float:right;
+		margin-top:50px;
+			   }
+			   
+header .photo
+{
+		width:150px;
+		height:100px;
+		display:inline-block;
+		margin-right:50px;
+			}
+/*头部结束=======================================*/
+
+/*开始写内容=======================================*/
+.container
+{ 
+		width:70%;
+		margin:0 auto;
+		}
+ 
+.container h3
+{
+		 font-weight:bold;
+		background:#338593;
+		 padding:10px;
+		 margin:20px;
+		 font-size:20px;
+		 }
+		 
+.personal-info .basic-info #tdc
+{
+		 width:100px;
+		 height:100px;
+		 display:inline-block;
+		 float:right;
+		 margin:5px 200px;
+	 }
+	 
+.personal-info  li
+{
+		list-style:none;
+		padding:0 20px;
+				}
+				
+.personal-info .basic-info img
+{
+		width:50px;
+		height:50px;
+		}
+			  
+.personal-info .software-skill li
+{
+		display:inline-block;
+}			  
+			  
+.school-info table
+{
+		border:2px solid #70c8ea;
+		
+			  }
+			  
+.school-info table td
+{
+		padding:10px;
+		}
+.experience table,.school-info table
+{
+		width:80%;
+		text-align:center;
+		margin:40px auto;
+		}
+		
+.experience  table hr
+{
+		border:1px solid #338593;
+		height:0px;
+		}
+			   
+.appraisal .self-appraisal
+{
+		width:60%;
+		margin:20px auto;
+		}			   
+			   
+.appraisal p
+{
+		text-indent:1.5em;
+		
+			 }
+/*内容结束=======================================*/	
+
+/*尾部开始=======================================*/		 
+footer
+{
+		text-align:center;
+		background:#338593;
+		padding:15px;
+		}
+/*尾部结束=======================================*/
+
+@media only screen and (min-width: 400px) and (max-width: 1024px){
+    .rightBox{
+        width: 0;
+    }
+    .leftBox{ width: 30%}
+    .middleBox{ width: 65%}
+}
+@media only screen and (max-width: 400px){
+    .leftBox, .rightBox, .middleBox{ 
+        width: 98%;
+        height: 200px;
+    }
