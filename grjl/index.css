@@ -146,7 +146,7 @@ footer
 		}
 /*尾部结束=======================================*/
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 600px){
     .experience .lg, header .photo{
         display:none;
         		
