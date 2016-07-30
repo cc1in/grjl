@@ -145,15 +145,16 @@ footer
 		}
 /*尾部结束=======================================*/
 
-@media only screen and (min-width: 400px) and (max-width: 1024px){
-    .rightBox{
-        width: 0;
+@media only screen and (max-width: 750px){
+    .experience .lg, header .photo{
+        display:none;
+        		
     }
-    .leftBox{ width: 30%}
-    .middleBox{ width: 65%}
+   
 }
-@media only screen and (max-width: 400px){
-    .leftBox, .rightBox, .middleBox{ 
-        width: 98%;
-        height: 200px;
+@media only screen and (min-width: 750px) {
+    .experience .sm{
+        display:none;
+        		
     }
+}
