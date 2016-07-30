@@ -146,14 +146,22 @@ footer
 		}
 /*尾部结束=======================================*/
 
+<<<<<<< HEAD
 @media only screen and (max-width: 700px){
+=======
+@media only screen and (max-width: 600px){
+>>>>>>> 445ed637e7295d2e1c8d6f69c8c9d3690275bd53
     .experience .lg, header .photo{
         display:none;
         		
     }
    
 }
+<<<<<<< HEAD
 @media only screen and (min-width: 700px) {
+=======
+@media only screen and (min-width: 600px) {
+>>>>>>> 445ed637e7295d2e1c8d6f69c8c9d3690275bd53
     .experience .sm{
         display:none;
         		
